@@ -13,6 +13,7 @@
     <p>If you answer these simple questions, we will tell you which of our three favorite languages you should learn first!</p>
     <p>This quiz will tell you if you should start learning code by learning <strong>C#, JavaScript, or Python.</strong></p> 
     <p>You would do well to remember that learning just one language won't get you too far, but one is a good place to start!</p>
+    <h4>Let's begin!</h4>
     <form id="questions">
       <label for="input1">Select your favorite color from this dropdown menu:</label>
       <select id="color">
@@ -22,9 +23,21 @@
       </select>
       <p>And what's your favorite food?</p>
       <label>
-        <input type="radio" id="food" value="sushi">
+        <input type="radio" id="food" value="sushi" checked>
         Sushi
       </label>
+      <label>
+        <input type="radio" id="food" value="chocolate">
+        Chocolate
+      </label>
+      <label>
+        <input type="radio" id="food" value="spaghetti">
+        Spaghetti
+      </label><br><br>
+      <label for="age">Input your age here:</label>
+      <input type="text" id="age" placeholder="never too old">
+      <br><br>
+      <button type="submit">Tell me my language!</button>
     </form>
   </div>
 </body>

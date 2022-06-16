@@ -10,8 +10,8 @@ window.addEventListener("load", function(){
   hideResults();
   let form = document.querySelector("form")
   form.addEventListener("submit", function(event){
-    const food = document.getElementsByName("input#food").value;
     event.preventDefault();
+    const food = document.querySelector("input[name='food']:checked").value;
     if (food === "sushi") {       
       python.removeAttribute("style") 
       cSharp.style.display = "none";
@@ -21,8 +21,8 @@ window.addEventListener("load", function(){
       cSharp.style.display = "none";
       python.style.display = "none";
     } else {
-      cSharp.removeAttribute("style")
-      python.style.display = "none";
+      python.removeAttribute("style")
+      cSharp.style.display = "none";
       javaScript.style.display = "none";
     };
     event.preventDefault();

@@ -2,3 +2,15 @@ body {
   text-align: center;
   background-color: lightgray;
 }
+
+.btn-dark {
+  color: #fff;
+  background-color: #485562;
+  border-color: #343a40;
+}
+
+.btn-dark:hover {
+  color: #fff;
+  background-color: #23272b;
+  border-color: #1d2124;
+}

@@ -3,6 +3,7 @@
 <head>
   <title>Coding Language Quiz</title>
   <script src="js/script.js"></script>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -12,15 +13,15 @@
     <h3>Well then! We have just the quiz for you!</h3>
     <p>If you answer these simple questions, we will tell you which of our three favorite languages you should learn first!</p>
     <p>This quiz will tell you if you should start learning code by learning <strong>C#, JavaScript, or Python.</strong></p> 
-    <p>You would do well to remember that learning just one language won't get you too far, but one is a good place to start!</p>
+    <p>You would do well to remember that eventually you will want to learn more languages, but one is a good place to start!</p>
     <h4>Let's begin!</h4>
     <form id="questions">
-      <label for="input1">Select your favorite color from this dropdown menu:</label>
+      <label for="color">Select your favorite color from this dropdown menu:</label>
       <select id="color">
         <option>Blorange</option>
         <option>Razzmatazz</option>
         <option>Xanadu</option>
-      </select>
+      </select><br>
       <p>And what's your favorite food?</p>
       <label>
         <input type="radio" id="food" value="sushi" checked>
@@ -35,7 +36,7 @@
         Spaghetti
       </label><br><br>
       <label for="age">Input your age here:</label>
-      <input type="text" id="age" placeholder="never too old">
+      <input type="number" id="age" placeholder="never too old">
       <br><br>
       <label for="pets">Do you have any pets?</label>
       <select id="pets">
@@ -45,7 +46,7 @@
       <label for="hobby">What's your favorite hobby?</label>
       <input type="text" id="hobby" placeholder="type it here">
       <br><br>
-      <button type="submit">Tell me my language!</button>
+      <button type="submit" class="btn-dark">Tell me my language!</button>
     </form>
     <div id="cSharp">
       <h1>Based on your answers.....</h1>

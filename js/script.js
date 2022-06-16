@@ -13,4 +13,4 @@ window.addEventListener("load", function(){
     event.preventDefault();
     const color = document.getElementById("select#color").value;
   })
-});
+}); 

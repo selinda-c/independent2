@@ -21,8 +21,8 @@ window.addEventListener("load", function(){
       cSharp.style.display = "none";
       python.style.display = "none";
     } else {
-      python.removeAttribute("style")
-      cSharp.style.display = "none";
+      cSharp.removeAttribute("style")
+      python.style.display = "none";
       javaScript.style.display = "none";
     };
     event.preventDefault();

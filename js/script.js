@@ -10,7 +10,21 @@ window.addEventListener("load", function(){
   hideResults();
   let form = document.querySelector("form")
   form.addEventListener("submit", function(event){
+    const food = document.getElementsByName("input#food").value;
     event.preventDefault();
-    const color = document.getElementById("select#color").value;
-  })
-}); 
+    if (food === "sushi") {       
+      python.removeAttribute("style") 
+      cSharp.style.display = "none";
+      javaScript.style.display = "none";
+    } else if (food === "chocolate") {
+      javaScript.removeAttribute("style")
+      cSharp.style.display = "none";
+      python.style.display = "none";
+    } else {
+      cSharp.removeAttribute("style")
+      python.style.display = "none";
+      javaScript.style.display = "none";
+    };
+    event.preventDefault();
+  });
+});

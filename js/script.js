@@ -30,8 +30,8 @@ window.addEventListener("load", function(){
     };
     event.preventDefault();
     reset.removeAttribute("style");
-    let questions = document.getElementById("questions")
-    questions.style.display = "none"
+    let questions = document.getElementById("questions");
+    questions.style.display = "none";
   });
   let color = document.getElementById("color");
   let food = document.getElementsByName("food");

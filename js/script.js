@@ -30,6 +30,8 @@ window.addEventListener("load", function(){
     };
     event.preventDefault();
     reset.removeAttribute("style");
+    let questions = document.getElementById("questions")
+    questions.style.display = "none"
   });
   let color = document.getElementById("color");
   let food = document.getElementsByName("food");
@@ -46,5 +48,6 @@ window.addEventListener("load", function(){
     age.value = null;
     pets.value = null;
     hobby.value = null;
+    questions.removeAttribute("style");
   });
 });

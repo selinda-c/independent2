@@ -14,3 +14,11 @@ body {
   background-color: #23272b;
   border-color: #1d2124;
 }
+
+.form {
+  background-color: white;
+  margin: auto;
+  width: 70%;
+  border-radius: 20px;
+  padding: 10px;
+}

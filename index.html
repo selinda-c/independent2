@@ -15,48 +15,50 @@
     <p>This quiz will tell you if you should start learning code by learning <strong>C#, JavaScript, or Python.</strong></p> 
     <p>You would do well to remember that eventually you will want to learn more languages, but one is a good place to start!</p>
     <h4>Let's begin!</h4>
-    <form id="questions">
-      <label for="color">Select your favorite color from this dropdown menu:</label>
-      <select id="color">
-        <option>Blorange</option>
-        <option>Razzmatazz</option>
-        <option>Xanadu</option>
-      </select><br>
-      <p>And what's your favorite food?</p>
-      <label>
-        <input type="radio" name="food" value="sushi": checked>
-        Sushi
-      </label><br>
-      <label>
-        <input type="radio" name="food" value="chocolate">
-        Chocolate
-      </label><br>
-      <label>
-        <input type="radio" name="food" value="spaghetti">
-        Spaghetti
-      </label><br><br>
-      <label for="age">Input your age here:</label>
-      <input type="number" id="age" placeholder="never too old">
-      <br><br>
-      <label for="pets">Do you have any pets?</label>
-      <select id="pets">
-        <option>yes</option>
-        <option>no</option>
-      </select><br><br>
-      <label for="hobby">What's your favorite hobby?</label>
-      <input type="text" id="hobby" placeholder="type it here">
-      <br><br>
-      <button type="submit" id="submit" class="btn-dark">Tell me my language!</button>
-    </form>
-    <div id="cSharp">
+    <div class="form">
+      <form id="questions">
+        <label for="color">Select your favorite color from this dropdown menu:</label>
+        <select id="color">
+          <option>Blorange</option>
+          <option>Razzmatazz</option>
+          <option>Xanadu</option>
+        </select><br>
+        <p>And what's your favorite food?</p>
+        <label>
+          <input type="radio" name="food" value="sushi": checked>
+          Sushi
+        </label><br>
+        <label>
+          <input type="radio" name="food" value="chocolate">
+          Chocolate
+        </label><br>
+        <label>
+          <input type="radio" name="food" value="spaghetti">
+          Spaghetti
+        </label><br><br>
+        <label for="age">Input your age here:</label>
+        <input type="number" id="age" placeholder="never too old">
+        <br><br>
+        <label for="pets">Do you have any pets?</label>
+        <select id="pets">
+          <option>yes</option>
+          <option>no</option>
+        </select><br><br>
+        <label for="hobby">What's your favorite hobby?</label>
+        <input type="text" id="hobby" placeholder="type it here">
+        <br><br>
+        <button type="submit" id="submit" class="btn-dark">Tell me my language!</button>
+      </form>
+    </div>
+    <div id="cSharp" class="form">
       <h1>Based on your answers.....</h1>
       <h2>You should try learning C#!</h2>
     </div>
-    <div id="javaScript">
+    <div id="javaScript" class="form">
       <h1>Based on your answers.....</h1>
       <h2>You should try learning JavaScript!</h2>
     </div>
-    <div id="python">
+    <div id="python" class="form">
       <h1>Based on your answers...</h1>
       <h2>You should try learning Python!</h2>
     </div>

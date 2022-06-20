@@ -13,10 +13,11 @@
 
 ## Description
 
-_This quiz was coded by me, using HTML, CSS, JavaScript, and Bootstrap. There are three potential results: Python, JavaScript, and C#. _
+_This quiz was coded by me, using HTML, CSS, JavaScript, and Bootstrap. It suggests to you a coding language to learn. There are three potential results: Python, JavaScript, and C#. The language the quiz suggests that you learn is based off of your answers entered in the form._
+
 ## Setup/Installation Requirements
 
-* _Clone the GitHub repository via command "Git clone" in your terminal: 
+* _Clone the GitHub repository via command "Git clone" in your terminal: https://github.com/selinda-c/independent2
 * _Navigate to the cloned directory in your downloads_
 * _Open the index.html page in your web browser_
 * _This is best viewed in Safari and Chrome_
